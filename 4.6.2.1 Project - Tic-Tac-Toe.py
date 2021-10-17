@@ -5,17 +5,17 @@ print("4.6.2.1 Project: Tic-Tac-Toe")
 #########################################
 
 def display_board(board):
-    seperator = str(("+"+"-"*7)*3+"+")
+    separator = str(("+"+"-"*7)*3+"+")
     spacer = str(("|"+" "*7)*3+"|")
 
     for row in board:
         beef = str("|   "+str(row[0])+"   |   "+str(row[1])+"   |   "+str(row[2])+"   |")
-        print(seperator)
+        print(separator)
         print(spacer)
         print(beef)
         print(spacer)
     #exit loop
-    print(seperator)
+    print(separator)
 #exit function
 
 #######################################
